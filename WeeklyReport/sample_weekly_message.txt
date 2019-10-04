@@ -1,0 +1,52 @@
+WEEK #
+--------------------------
+ABV1    xx  (w-l)           [winner on top]
+ABV2    xx  (w-l)
+Leading Scorers:
+ABV1:
+First Last (pos)
+ABV2:
+First Last (pos)            [x6 for each game]
+
+STANDINGS
+--------------------------
+East:
+ABV1 w-l (+c)               [c is change from last week]
+[x6 for each team]
+
+West:
+ABV7 w-l (+c)
+[x6 for each team]
+
+STATISTICS
+--------------------------
+Highest Score:
+ABV? - pts
+
+Lowest Score:
+ABV? - pts
+
+Average Score (week):
+pts
+
+Average Score (season):
+pts
+
+LEAGUE LEADERS
+--------------------------
+Points For:
+ABV? - pts
+
+Points Against:
+ABV? - pts
+
+VERSUS LEAGUE AVERAGE
+High c is a lucky team
+Low c is an unlucky team
+--------------------------
+AVB? w-l ~~ Change: +c             [c is difference from actual standings]
+[x12 for each team]
+
+--------------------------
+Team of the week:
+Team Name
