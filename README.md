@@ -6,7 +6,7 @@ Designed to move to the next week every tuesday.
 Run by calling `node report.js`
 
 ## Response Bot
-ResponseBot directory contains Heroku server code for responding to certain commands.
+Responder directory contains Heroku server code for responding to certain commands.
 
 ## Weekly Report Database
 ### avg_standings
