@@ -49,6 +49,7 @@ ResponseBot directory contains Heroku server code for responding to certain comm
 
 ### updates
 This table tracks when the other tables were last updated
+
 | Field         | Type          |
 | ------------- |:-------------:|
 | matchups           | text          |
