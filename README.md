@@ -1,5 +1,11 @@
 # espngroupme
 
+#### ESPN API
+https://stmorse.github.io/journal/espn-fantasy-python.html 
+
+#### GroupMe Guide
+Found in Responder folder
+
 ## Weekly Reports
 WeeklyReport folder contains code for generating a weekly report.
 Designed to move to the next week every tuesday.
