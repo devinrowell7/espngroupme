@@ -10,6 +10,8 @@ ResponseBot directory contains Heroku server code for responding to certain comm
 
 ## Weekly Report Database
 ### avg_standings
+Tracks standings if everyone played against a perfectly average team each week
+
 | Field         | Type          |
 | ------------- |:-------------:|
 | teamid        | int           |
@@ -17,6 +19,8 @@ ResponseBot directory contains Heroku server code for responding to certain comm
 | losses        | int           |
 
 ### leaders
+Number of times team has led week in most or least points scored
+
 | Field         | Type          |
 | ------------- |:-------------:|
 | teamid        | int           |
@@ -24,6 +28,8 @@ ResponseBot directory contains Heroku server code for responding to certain comm
 | pagainst      | int           |
 
 ### single_stats
+When other tables have been updated, and running season average
+
 | Field         | Type          |
 | ------------- |:-------------:|
 | key           | text          |
@@ -31,7 +37,9 @@ ResponseBot directory contains Heroku server code for responding to certain comm
 
 
 ## Response Bot Database
-### avg_standings
+### matchups
+All time head-to-head matchups, must be manually inserted up to current week, after that they will update automatically
+
 | Field         | Type          |
 | ------------- |:-------------:|
 | teamid        | int           |
@@ -40,6 +48,8 @@ ResponseBot directory contains Heroku server code for responding to certain comm
 |losses | int |
 
 ### records
+All time records, must be manually inserted up to current week, after that they will update automatically
+
 | Field         | Type          |
 | ------------- |:-------------:|
 | teamid        | int           |
@@ -52,6 +62,6 @@ This table tracks when the other tables were last updated
 
 | Field         | Type          |
 | ------------- |:-------------:|
-| matchups           | text          |
-| records         | double        |
+| matchups           | int          |
+| records         | int        |
 
